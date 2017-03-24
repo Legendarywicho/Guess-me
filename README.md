@@ -1,17 +1,14 @@
+```java
 import java.util.Scanner;
 import java.util.Random;
 
-public class guessMe {
+public class GuessMe {
 
     public static void main(String[] args) {
 
         Random ale = new Random();
         Scanner input = new Scanner(System.in);
         int random = ale.nextInt(10);
-       
-        
-       
-
        
         String sino;
 
@@ -49,3 +46,4 @@ public class guessMe {
     }
 
 }
+```
